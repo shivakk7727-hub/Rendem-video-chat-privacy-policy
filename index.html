@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Random Video Chat</title>
+    <style>
+        :root {
+            --primary-color: #6366f1;
+            --primary-hover: #4f46e5;
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --border-color: #334155;
+            --accent-color: #e0e7ff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 40px auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .app-title {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, #818cf8 0%, #c084fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .meta-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 12px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .meta-badge {
+            background-color: rgba(99, 102, 241, 0.15);
+            color: #a5b4fc;
+            padding: 4px 12px;
+            border-radius: 20px;
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            font-family: monospace;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            color: #ffffff;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2::before {
+            content: "";
+            display: inline-block;
+            width: 4px;
+            height: 18px;
+            background-color: var(--primary-color);
+            border-radius: 2px;
+        }
+
+        p, ul {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: rgba(99, 102, 241, 0.08);
+            border-left: 4px solid var(--primary-color);
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+
+        a {
+            color: #818cf8;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #a5b4fc;
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 24px;
+                margin: 10px auto;
+            }
+            .app-title {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1 class="app-title">Privacy Policy</h1>
+        <p>This Privacy Policy governs your use of the mobile application <strong>Random Video Chat</strong>.</p>
+        <div class="meta-info">
+            <span><strong>App Name:</strong> Random Video Chat</span>
+            <span class="meta-badge">Package: com.aistudio.randomvideochat.fyrqlx</span>
+            <span><strong>Effective Date:</strong> July 27, 2026</span>
+        </div>
+    </div>
+
+    <div class="highlight-box">
+        <p>🔒 <strong>Summary:</strong> We prioritize user privacy and safety. Live video/audio streams are transmitted directly peer-to-peer and are NOT recorded or stored on any server.</p>
+    </div>
+
+    <h2>1. Information We Collect</h2>
+    <p>When you use <strong>Random Video Chat</strong>, we may collect and process limited information necessary to deliver video chat functionality, optimize app performance, and show advertisements:</p>
+    <ul>
+        <li><strong>Camera and Microphone Input:</strong> Required solely to transmit real-time video and audio streams during active 1-on-1 video call sessions. This data is transmitted peer-to-peer via WebRTC and is never recorded, saved, or monitored on any permanent storage.</li>
+        <li><strong>Device Information & Identifiers:</strong> Advertising ID (GAID), Android OS version, device model, and system diagnostics collected automatically by third-party services (such as Google AdMob and Firebase).</li>
+        <li><strong>User Profile Info (Nickname / Gender / Country):</strong> Basic temporary details you provide when starting a chat match. This information is used strictly during session matching and is not shared or sold.</li>
+        <li><strong>User Safety & Moderation Data:</strong> User report flags and blocked user IDs stored locally on your device to ensure you do not reconnect with blocked users.</li>
+    </ul>
+
+    <h2>2. Device Permissions Required</h2>
+    <p>To provide full functionality, the application requests the following Android permissions:</p>
+    <ul>
+        <li><code>android.permission.CAMERA</code> - Required to capture video for live calls.</li>
+        <li><code>android.permission.RECORD_AUDIO</code> - Required to capture audio for live calls.</li>
+        <li><code>android.permission.INTERNET</code> - Required for peer-to-peer WebRTC signaling and loading advertisement content.</li>
+        <li><code>android.permission.ACCESS_NETWORK_STATE</code> - Used to verify internet connectivity.</li>
+    </ul>
+
+    <h2>3. Real-Time Communication & WebRTC</h2>
+    <p>Video and audio connections are established using WebRTC technology and Firebase signaling servers:</p>
+    <ul>
+        <li>No video or audio call sessions are recorded or stored on our servers or any third-party server.</li>
+        <li>Signaling data (IP addresses and connection tokens required to set up WebRTC peer connections) is temporarily processed in memory and discarded upon session completion.</li>
+    </ul>
+
+    <h2>4. Third-Party Services & Advertisements (Google AdMob)</h2>
+    <p>We use third-party services to support app operations and monetize through advertisements. These third-party services may collect information used to identify your device:</p>
+    <ul>
+        <li><strong>Google AdMob & Google Play Services:</strong> Used to display banner and interstitial ads. AdMob may use your Advertising ID to serve personalized or non-personalized ads according to your system settings.</li>
+        <li><strong>Firebase Realtime Database & Analytics:</strong> Used for real-time signaling and connection routing between video chat participants.</li>
+    </ul>
+    <p>For more details on Google's data practices, please visit <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMob Policies</a>.</p>
+
+    <h2>5. User Safety, Content Moderation & Conduct</h2>
+    <p>We strictly prohibit any illegal, abusive, obscene, or adult content (UGC) during live video chats:</p>
+    <ul>
+        <li>Users must be <strong>18 years of age or older</strong> to use this application.</li>
+        <li>Nudity, sexual content, harassment, hate speech, violence, and illegal activity are strictly prohibited.</li>
+        <li><strong>Block & Report Feature:</strong> Users can instantly report or block abusive participants at any time during a call. Blocked users will not be matched with you again.</li>
+    </ul>
+
+    <h2>6. Data Security</h2>
+    <p>We implement industry-standard security measures to safeguard signaling data and protect user connections. However, please remember that no method of transmission over the internet is 100% secure.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>Our app does not address anyone under the age of 18 ("Children"). We do not knowingly collect personally identifiable information from children under 18. If you are a parent or guardian and realize your child has provided us with personal information, please contact us immediately.</p>
+
+    <h2>8. Your Rights & Data Deletion</h2>
+    <p>You can manage camera/microphone permissions anytime via your Android Device Settings (Settings > Apps > Random Video Chat > Permissions). Since we do not maintain persistent user accounts or store video recordings, no personal media accounts exist to delete.</p>
+
+    <h2>9. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes. Changes are effective immediately upon being posted.</p>
+
+    <h2>10. Contact Us</h2>
+    <p>If you have any questions or suggestions regarding this Privacy Policy, feel free to contact us:</p>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:shivakk7727@gmail.com">shivakk7727@gmail.com</a></li>
+        <li><strong>Application:</strong> Random Video Chat (<code>com.aistudio.randomvideochat.fyrqlx</code>)</li>
+    </ul>
+
+    <div class="footer">
+        <p>&copy; 2026 Random Video Chat. All rights reserved.</p>
+    </div>
+</div>
+
+</body>
+</html>
